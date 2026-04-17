@@ -118,36 +118,52 @@ Update DB credentials in the notebook before execution.
 ---
 
 ### 5. Open Dashboard
+
 Open .pbix file in Power BI
+
 📊 Usage
+
 Example SQL Query
+
 SELECT customer_segment, SUM(purchase_amount) AS total_revenue
 FROM transactions
 GROUP BY customer_segment
 ORDER BY total_revenue DESC;
+
 Workflow
+
 Run Python notebook → prepare data
+
 Load into PostgreSQL → structure data
+
 Run SQL queries → generate insights
+
 Open Power BI → visualize results
 
 ---
 
----
-
 📈 Results / Impact
+
 Majority customers are loyal buyers, driving most revenue
+
 Young adults contribute the highest revenue share
+
 Discount-heavy products influence purchasing decisions
+
 Express shipping users spend more on average
+
 Subscription users show comparable spending but lower total revenue
 
 ---
 
 ⚠️ Learnings / Challenges
+
 Handling missing data using category-level imputation
+
 Designing business-relevant features (not just technical ones)
+
 Writing efficient SQL queries for large aggregations
+
 Translating analysis into clear business insights
 
 ---
