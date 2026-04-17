@@ -115,6 +115,7 @@ CREATE DATABASE retail_analytics;
 
 Update DB credentials in the notebook before execution.
 ```
+---
 
 ### 5. Open Dashboard
 Open .pbix file in Power BI
@@ -129,6 +130,10 @@ Run Python notebook → prepare data
 Load into PostgreSQL → structure data
 Run SQL queries → generate insights
 Open Power BI → visualize results
+
+---
+
+---
 
 📈 Results / Impact
 Majority customers are loyal buyers, driving most revenue
@@ -145,12 +150,9 @@ Designing business-relevant features (not just technical ones)
 Writing efficient SQL queries for large aggregations
 Translating analysis into clear business insights
 
-🔮 Future Improvements
-Add machine learning models (CLV, churn prediction)
-Build real-time data pipeline
-Deploy dashboard to Power BI Service
-Introduce A/B testing for pricing strategies
-Create API layer for analytics access
+---
+
+
 🤝 Contributing
 
 
@@ -161,6 +163,3 @@ Steps:
 Fork the repo
 Create a new branch
 Submit a pull request
-📄 License
-
-MIT License
