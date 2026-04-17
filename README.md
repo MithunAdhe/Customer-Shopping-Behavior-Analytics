@@ -177,5 +177,7 @@ Contributions are welcome.
 Steps:
 
 Fork the repo
+
 Create a new branch
+
 Submit a pull request
